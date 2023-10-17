@@ -15,7 +15,7 @@
 package compiler
 
 import (
-	"github.com/google/gnostic-models/compiler"
+	"github.com/etam-pro/gnostic-models/compiler"
 )
 
 // ExtensionHandler describes a binary that is called by the compiler to handle specification extensions.

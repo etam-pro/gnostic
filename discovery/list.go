@@ -19,7 +19,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/google/gnostic/compiler"
+	"github.com/etam-pro/gnostic/compiler"
 )
 
 // APIsListServiceURL is the URL for the Google APIs Discovery Service

@@ -15,7 +15,7 @@
 package vocabulary
 
 import (
-	metrics "github.com/google/gnostic/metrics"
+	metrics "github.com/etam-pro/gnostic/metrics"
 )
 
 // Union implements the union operation between multiple Vocabularies.

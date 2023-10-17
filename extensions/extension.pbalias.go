@@ -15,7 +15,7 @@
 package gnostic_extension_v1
 
 import (
-	extensions "github.com/google/gnostic-models/extensions"
+	extensions "github.com/etam-pro/gnostic-models/extensions"
 )
 
 type Version = extensions.Version

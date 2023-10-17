@@ -15,7 +15,7 @@
 package discovery_v1
 
 import (
-	discovery "github.com/google/gnostic-models/discovery"
+	discovery "github.com/etam-pro/gnostic-models/discovery"
 )
 
 type Annotations = discovery.Annotations

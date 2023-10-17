@@ -15,7 +15,7 @@
 package compiler
 
 import (
-	"github.com/google/gnostic-models/compiler"
+	"github.com/etam-pro/gnostic-models/compiler"
 )
 
 // Error represents compiler errors and their location in the document.

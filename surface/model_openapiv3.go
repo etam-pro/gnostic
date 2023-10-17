@@ -18,8 +18,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/google/gnostic/compiler"
-	openapiv3 "github.com/google/gnostic/openapiv3"
+	"github.com/etam-pro/gnostic/compiler"
+	openapiv3 "github.com/etam-pro/gnostic/openapiv3"
 )
 
 type OpenAPI3Builder struct {
@@ -409,7 +409,7 @@ func (b *OpenAPI3Builder) buildFromSchema(name string, schema *openapiv3.Schema)
 
 // buildFromOneOfAnyOfAndAllOf adds appropriate fields to the 'schemaType' given a new 'schemaOrRef'.
 func (b *OpenAPI3Builder) buildFromOneOfAnyOfAndAllOf(schemaOrRef *openapiv3.SchemaOrReference, schemaType *Type) {
-	// Related: https://github.com/google/gnostic-grpc/issues/22
+	// Related: https://github.com/etam-pro/gnostic-grpc/issues/22
 	if schema := schemaOrRef.GetSchema(); schema != nil {
 		// Build a temporary type that has the required fields; add the fields to the current schema; remove the
 		// temporary type

@@ -15,7 +15,7 @@
 package openapi_v2
 
 import (
-	openapiv2 "github.com/google/gnostic-models/openapiv2"
+	openapiv2 "github.com/etam-pro/gnostic-models/openapiv2"
 )
 
 type AdditionalPropertiesItem = openapiv2.AdditionalPropertiesItem

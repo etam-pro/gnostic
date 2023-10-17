@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/google/gnostic/printer"
+	"github.com/etam-pro/gnostic/printer"
 )
 
 // ProtoOption represents an option to be added to generated .proto files.

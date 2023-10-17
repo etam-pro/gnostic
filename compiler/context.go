@@ -15,7 +15,7 @@
 package compiler
 
 import (
-	"github.com/google/gnostic-models/compiler"
+	"github.com/etam-pro/gnostic-models/compiler"
 )
 
 // Context contains state of the compiler as it traverses a document.

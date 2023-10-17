@@ -15,7 +15,7 @@
 package openapi_v3
 
 import (
-	openapiv3 "github.com/google/gnostic-models/openapiv3"
+	openapiv3 "github.com/etam-pro/gnostic-models/openapiv3"
 )
 
 type AdditionalPropertiesItem = openapiv3.AdditionalPropertiesItem
